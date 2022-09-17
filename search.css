@@ -1,0 +1,15 @@
+  #cont {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #aaa;
+    /*To show the boundaries of the element*/
+  }
+  
+  #cont:before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+  }
